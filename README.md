@@ -13,12 +13,14 @@ Source:
 data_url = "http://lib.stat.cmu.edu/datasets/boston"
 
 Package Use:
+
 from sklearn.preprocessing import scale
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import SGDRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
+
 -------------------
 
 Titanic
@@ -30,6 +32,7 @@ Titanic
 - KFold and Cross Validation Scores
 
 Package Use:
+
 from sklearn.preprocessing import scale
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
